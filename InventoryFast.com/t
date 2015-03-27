@@ -1,0 +1,218 @@
+<!doctype html>
+<style>
+.table {
+	margin:0px;padding:0px;
+	width:100%;
+	box-shadow: 10px 10px 5px #888888;
+	border:1px solid #000000;
+	
+	-moz-border-radius-bottomleft:0px;
+	-webkit-border-bottom-left-radius:0px;
+	border-bottom-left-radius:0px;
+	
+	-moz-border-radius-bottomright:0px;
+	-webkit-border-bottom-right-radius:0px;
+	border-bottom-right-radius:0px;
+	
+	-moz-border-radius-topright:0px;
+	-webkit-border-top-right-radius:0px;
+	border-top-right-radius:0px;
+	
+	-moz-border-radius-topleft:0px;
+	-webkit-border-top-left-radius:0px;
+	border-top-left-radius:0px;
+}.table table{
+    border-collapse: collapse;
+        border-spacing: 0;
+	width:100%;
+	height:100%;
+	margin:0px;padding:0px;
+}.table tr:last-child td:last-child {
+	-moz-border-radius-bottomright:0px;
+	-webkit-border-bottom-right-radius:0px;
+	border-bottom-right-radius:0px;
+}
+.table table tr:first-child td:first-child {
+	-moz-border-radius-topleft:0px;
+	-webkit-border-top-left-radius:0px;
+	border-top-left-radius:0px;
+}
+.table table tr:first-child td:last-child {
+	-moz-border-radius-topright:0px;
+	-webkit-border-top-right-radius:0px;
+	border-top-right-radius:0px;
+}.table tr:last-child td:first-child{
+	-moz-border-radius-bottomleft:0px;
+	-webkit-border-bottom-left-radius:0px;
+	border-bottom-left-radius:0px;
+}.table tr:hover td{
+	background-color:#ffffff;
+		
+
+}
+.table td{
+	vertical-align:middle;
+		background:-o-linear-gradient(bottom, #e5f0ff 5%, #ffffff 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #e5f0ff), color-stop(1, #ffffff) ); 
+	background:-moz-linear-gradient( center top, #e5f0ff 5%, #ffffff 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#e5f0ff", endColorstr="#ffffff");	background: -o-linear-gradient(top,#e5f0ff,ffffff);
+
+	background-color:#e5f0ff;
+
+	border:1px solid #000000;
+	border-width:0px 1px 1px 0px;
+	text-align:left;
+	padding:7px;
+	font-size:15px;
+	font-family:Arial;
+	font-weight:bold;
+	color:#000000;
+}.table tr:last-child td{
+	border-width:0px 1px 0px 0px;
+}.table tr td:last-child{
+	border-width:0px 0px 1px 0px;
+}.table tr:last-child td:last-child{
+	border-width:0px 0px 0px 0px;
+}
+.table tr:first-child td{
+		background:-o-linear-gradient(bottom, #009dff 5%, #214dff 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #009dff), color-stop(1, #214dff) );
+	background:-moz-linear-gradient( center top, #009dff 5%, #214dff 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#009dff", endColorstr="#214dff");	background: -o-linear-gradient(top,#009dff,214dff);
+
+	background-color:#009dff;
+	border:0px solid #000000;
+	text-align:center;
+	border-width:0px 0px 1px 1px;
+	font-size:20px;
+	font-family:Arial;
+	font-weight:bold;
+	color:#ffffff;
+}
+.table tr:first-child:hover td{
+	background:-o-linear-gradient(bottom, #009dff 5%, #214dff 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #009dff), color-stop(1, #214dff) );
+	background:-moz-linear-gradient( center top, #009dff 5%, #214dff 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#009dff", endColorstr="#214dff");	background: -o-linear-gradient(top,#009dff,214dff);
+
+	background-color:#009dff;
+}
+.table tr:first-child td:first-child{
+	border-width:0px 0px 1px 0px;
+}
+.table tr:first-child td:last-child{
+	border-width:0px 0px 1px 1px;
+}
+body {
+    background-color: #EDF3FF;
+} 
+
+.txt {
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+}
+</style>
+
+
+<?php
+	$itemval = $_POST["item"];
+	$countval = $_POST["count"];
+	$costval = $_POST["cost"];
+	
+?>
+
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<?php
+	if( isset($_COOKIE["item"]))	
+	   {
+	     $itemval = $_COOKIE["item"];
+	   }
+	 if( isset($_COOKIE["items"]))	
+	   {
+	     $x= $_COOKIE["items"];
+	   }
+	   
+	   
+	   
+   	if( isset($_COOKIE["count"]))	
+	   {
+	     $countval = $_COOKIE["count"];
+	   }
+	else	
+	   {
+	      $countval=0;
+	   }   
+	
+	if( isset($_COOKIE["cost"]))	
+	   {
+	     $costval = $_COOKIE["cost"];
+	   }
+	else	
+	   {
+	      $costval="$0.00";
+	   }   
+	if ( ! empty($_POST["item"]) )
+	   {
+	    $itemval=$_POST["item"];
+	   }
+	if ( ! empty($_POST["count"]) )
+	   {
+	    $countval=$_POST["count"];
+	   }
+	   if ( ! empty($_POST["items"]) )
+	   {
+	    $x=$_POST["items"];
+	   }
+	?>
+    <div class="table" >
+                <table >
+                    <tr>
+                        <td>
+                            Item Name
+                        </td>
+                        <td >
+                            Count
+                        </td>
+                        <td>
+                            Cost
+                        </td>
+                    </tr>
+                    <tr>
+                        <td >
+                            <?php print $itemval ?>
+                        </td>
+                        <td>
+                            <?php print $countval ?>
+                        </td>
+                        <td>
+                            <?php print $costval ?>
+                        </td>
+                    </tr>
+                    <tr>
+                    </tr>
+                </table>
+            </div>
+ <br>
+ <p class="txt">Total Items: 1</p>
+ <p class="txt">Total Count: <?php print $countval ?><p>
+ <p class="txt">Total Cost: <?php print $costval ?><p>
+ <form name="edit" action="index.php" method="get" target="_top">
+<input type="hidden" name="edit" value="1" />
+<input type="submit" name="edit" class="myButton" value="Edit" />
+</form>
+
+<form name="clearall" action="empty.php" method="get">
+<input type="hidden" name="emptycart" value="1" />
+<input type="submit" name="emptycart" class="myButton" value="Clear All" />
+</form>
+
+<form action="index.php" target="_top">
+<input type="submit" class="myButton" value="Close Window">
+</form>
+
+
+</body>
+</html>

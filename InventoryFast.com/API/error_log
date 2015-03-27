@@ -1,0 +1,15 @@
+[01-Aug-2014 23:21:37 America/Chicago] PHP Warning:  file_get_contents(http://inventoryfast.com//api.php?action=get_app_list): failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+ in /home2/nws990/public_html/InventoryFast.com/API/REST_Client.php on line 27
+[01-Aug-2014 23:21:37 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home2/nws990/public_html/InventoryFast.com/API/REST_Client.php on line 31
+[01-Aug-2014 23:49:12 America/Chicago] PHP Parse error:  syntax error, unexpected 'ItemSearchUIN' (T_STRING), expecting '(' in /home2/nws990/public_html/InventoryFast.com/API/api.php on line 45
+[01-Aug-2014 23:54:56 America/Chicago] PHP Parse error:  syntax error, unexpected ')' in /home2/nws990/public_html/InventoryFast.com/API/api.php on line 45
+[01-Aug-2014 23:55:31 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home2/nws990/public_html/InventoryFast.com/API/api.php on line 48
+[01-Aug-2014 23:55:34 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home2/nws990/public_html/InventoryFast.com/API/api.php on line 48
+[02-Aug-2014 00:28:39 America/Chicago] PHP Parse error:  syntax error, unexpected '{' in /home2/nws990/public_html/InventoryFast.com/API/api.php on line 63
+[02-Aug-2014 00:29:15 America/Chicago] PHP Parse error:  syntax error, unexpected ')', expecting ']' in /home2/nws990/public_html/InventoryFast.com/API/api.php on line 70
+[03-Aug-2014 01:09:51 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home2/nws990/public_html/InventoryFast.com/include/DatabaseAbstractionLayer.php on line 139
+[03-Aug-2014 01:10:18 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home2/nws990/public_html/InventoryFast.com/include/DatabaseAbstractionLayer.php on line 139
+[03-Aug-2014 01:10:20 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home2/nws990/public_html/InventoryFast.com/include/DatabaseAbstractionLayer.php on line 139
+[03-Aug-2014 01:10:24 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home2/nws990/public_html/InventoryFast.com/include/DatabaseAbstractionLayer.php on line 139
+[03-Aug-2014 01:10:52 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home2/nws990/public_html/InventoryFast.com/include/DatabaseAbstractionLayer.php on line 140
+[03-Aug-2014 01:19:49 America/Chicago] PHP Parse error:  syntax error, unexpected '"beep"' (T_CONSTANT_ENCAPSED_STRING) in /home2/nws990/public_html/InventoryFast.com/API/api.php on line 107

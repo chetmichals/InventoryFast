@@ -1,0 +1,112 @@
+[17-Jul-2014 20:06:32 America/New_York] PHP Warning:  Module 'Phar' already loaded in Unknown on line 0
+[17-Jul-2014 20:06:32 America/New_York] PHP Parse error:  syntax error, unexpected ')' in /home/dotahats/public_html/Fast/DatabaseAbstractionLayer.php on line 44
+[17-Jul-2014 20:07:41 America/New_York] PHP Warning:  Module 'Phar' already loaded in Unknown on line 0
+[17-Jul-2014 20:07:41 America/New_York] PHP Parse error:  syntax error, unexpected T_STRING in /home/dotahats/public_html/Fast/DatabaseAbstractionLayer.php on line 84
+[17-Jul-2014 20:07:55 America/New_York] PHP Warning:  Module 'Phar' already loaded in Unknown on line 0
+[17-Jul-2014 20:07:55 America/New_York] PHP Parse error:  syntax error, unexpected ')' in /home/dotahats/public_html/Fast/DatabaseAbstractionLayer.php on line 84
+[17-Jul-2014 20:08:05 America/New_York] PHP Warning:  Module 'Phar' already loaded in Unknown on line 0
+[17-Jul-2014 20:08:46 America/New_York] PHP Warning:  Module 'Phar' already loaded in Unknown on line 0
+[17-Jul-2014 20:09:10 America/New_York] PHP Warning:  Module 'Phar' already loaded in Unknown on line 0
+[17-Jul-2014 20:09:10 America/New_York] PHP Parse error:  syntax error, unexpected '=' in /home/dotahats/public_html/Fast/UserAccountAbstractionLayer.php on line 8
+[17-Jul-2014 20:09:45 America/New_York] PHP Warning:  Module 'Phar' already loaded in Unknown on line 0
+[17-Jul-2014 20:09:45 America/New_York] PHP Parse error:  syntax error, unexpected ')' in /home/dotahats/public_html/Fast/UserAccountAbstractionLayer.php on line 9
+[17-Jul-2014 20:09:56 America/New_York] PHP Warning:  Module 'Phar' already loaded in Unknown on line 0
+[17-Jul-2014 20:09:56 America/New_York] PHP Parse error:  syntax error, unexpected '=' in /home/dotahats/public_html/Fast/UserAccountAbstractionLayer.php on line 19
+[17-Jul-2014 20:11:50 America/New_York] PHP Warning:  Module 'Phar' already loaded in Unknown on line 0
+[17-Jul-2014 20:11:50 America/New_York] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting T_STRING in /home/dotahats/public_html/Fast/UserAccountAbstractionLayer.php on line 38
+[17-Jul-2014 20:12:13 America/New_York] PHP Warning:  Module 'Phar' already loaded in Unknown on line 0
+[17-Jul-2014 20:41:05 America/New_York] PHP Warning:  Module 'Phar' already loaded in Unknown on line 0
+[17-Jul-2014 20:41:05 America/New_York] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ',' or ';' in /home/dotahats/public_html/Fast/functionTest.php on line 10
+[17-Jul-2014 20:42:43 America/New_York] PHP Warning:  Module 'Phar' already loaded in Unknown on line 0
+[17-Jul-2014 20:42:43 America/New_York] PHP Parse error:  syntax error, unexpected T_STRING in /home/dotahats/public_html/Fast/functionTest.php on line 16
+[17-Jul-2014 20:43:14 America/New_York] PHP Warning:  Module 'Phar' already loaded in Unknown on line 0
+[17-Jul-2014 20:43:14 America/New_York] PHP Warning:  include(DatabaseAbstactionLayer.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/dotahats/public_html/Fast/functionTest.php on line 3
+[17-Jul-2014 20:43:14 America/New_York] PHP Warning:  include(DatabaseAbstactionLayer.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/dotahats/public_html/Fast/functionTest.php on line 3
+[17-Jul-2014 20:43:14 America/New_York] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'DatabaseAbstactionLayer.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/dotahats/public_html/Fast/functionTest.php on line 3
+[17-Jul-2014 20:43:14 America/New_York] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (42000/1044): Access denied for user 'dotahats_user'@'localhost' to database 'dotahats_ProgConceptTest' in /home/dotahats/public_html/Fast/DataBaseLogIn.php on line 11
+[17-Jul-2014 20:44:52 America/New_York] PHP Warning:  Module 'Phar' already loaded in Unknown on line 0
+[17-Jul-2014 20:44:52 America/New_York] PHP Warning:  include(DatabaseAbstactionLayer.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/dotahats/public_html/Fast/functionTest.php on line 3
+[17-Jul-2014 20:44:52 America/New_York] PHP Warning:  include(DatabaseAbstactionLayer.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/dotahats/public_html/Fast/functionTest.php on line 3
+[17-Jul-2014 20:44:52 America/New_York] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'DatabaseAbstactionLayer.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/dotahats/public_html/Fast/functionTest.php on line 3
+[17-Jul-2014 20:44:52 America/New_York] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (42000/1044): Access denied for user 'dotahats_user'@'localhost' to database 'dotahats_ProgConceptTest' in /home/dotahats/public_html/Fast/DataBaseLogIn.php on line 11
+[17-Jul-2014 20:46:53 America/New_York] PHP Warning:  Module 'Phar' already loaded in Unknown on line 0
+[17-Jul-2014 20:46:53 America/New_York] PHP Warning:  include(DatabaseAbstactionLayer.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/dotahats/public_html/Fast/functionTest.php on line 3
+[17-Jul-2014 20:46:53 America/New_York] PHP Warning:  include(DatabaseAbstactionLayer.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/dotahats/public_html/Fast/functionTest.php on line 3
+[17-Jul-2014 20:46:53 America/New_York] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'DatabaseAbstactionLayer.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/dotahats/public_html/Fast/functionTest.php on line 3
+[17-Jul-2014 20:46:53 America/New_York] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (42000/1044): Access denied for user 'dotahats_user'@'localhost' to database 'dotahats_ProgConceptTest' in /home/dotahats/public_html/Fast/DataBaseLogIn.php on line 11
+[17-Jul-2014 20:46:56 America/New_York] PHP Warning:  Module 'Phar' already loaded in Unknown on line 0
+[17-Jul-2014 20:46:56 America/New_York] PHP Warning:  include(DatabaseAbstactionLayer.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/dotahats/public_html/Fast/functionTest.php on line 3
+[17-Jul-2014 20:46:56 America/New_York] PHP Warning:  include(DatabaseAbstactionLayer.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/dotahats/public_html/Fast/functionTest.php on line 3
+[17-Jul-2014 20:46:56 America/New_York] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'DatabaseAbstactionLayer.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/dotahats/public_html/Fast/functionTest.php on line 3
+[17-Jul-2014 20:46:56 America/New_York] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (42000/1044): Access denied for user 'dotahats_user'@'localhost' to database 'dotahats_ProgConceptTest' in /home/dotahats/public_html/Fast/DataBaseLogIn.php on line 11
+[17-Jul-2014 20:48:57 America/New_York] PHP Warning:  Module 'Phar' already loaded in Unknown on line 0
+[17-Jul-2014 20:48:57 America/New_York] PHP Fatal error:  Cannot redeclare connectToDotabase() (previously declared in /home/dotahats/public_html/Fast/DataBaseLogIn.php:6) in /home/dotahats/public_html/Fast/DataBaseLogIn.php on line 13
+[17-Jul-2014 20:52:43 America/New_York] PHP Warning:  Module 'Phar' already loaded in Unknown on line 0
+[17-Jul-2014 20:52:43 America/New_York] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (42000/1044): Access denied for user 'dotahats_user'@'localhost' to database 'dotahats_ProgConceptTest' in /home/dotahats/public_html/Fast/DataBaseLogIn.php on line 11
+[17-Jul-2014 20:54:11 America/New_York] PHP Warning:  Module 'Phar' already loaded in Unknown on line 0
+[17-Jul-2014 20:54:11 America/New_York] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/dotahats/public_html/Fast/UserAccountAbstractionLayer.php on line 39
+[17-Jul-2014 20:54:11 America/New_York] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/dotahats/public_html/Fast/UserAccountAbstractionLayer.php on line 39
+[17-Jul-2014 20:58:42 America/New_York] PHP Warning:  Module 'Phar' already loaded in Unknown on line 0
+[17-Jul-2014 20:58:42 America/New_York] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/dotahats/public_html/Fast/UserAccountAbstractionLayer.php on line 40
+[17-Jul-2014 20:58:42 America/New_York] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/dotahats/public_html/Fast/UserAccountAbstractionLayer.php on line 40
+[17-Jul-2014 20:58:53 America/New_York] PHP Warning:  Module 'Phar' already loaded in Unknown on line 0
+[17-Jul-2014 20:58:53 America/New_York] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/dotahats/public_html/Fast/UserAccountAbstractionLayer.php on line 40
+[17-Jul-2014 20:58:53 America/New_York] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/dotahats/public_html/Fast/UserAccountAbstractionLayer.php on line 40
+[17-Jul-2014 21:01:46 America/New_York] PHP Warning:  Module 'Phar' already loaded in Unknown on line 0
+[17-Jul-2014 21:04:12 America/New_York] PHP Warning:  Module 'Phar' already loaded in Unknown on line 0
+[17-Jul-2014 21:04:35 America/New_York] PHP Warning:  Module 'Phar' already loaded in Unknown on line 0
+[17-Jul-2014 21:04:50 America/New_York] PHP Warning:  Module 'Phar' already loaded in Unknown on line 0
+[17-Jul-2014 21:05:00 America/New_York] PHP Warning:  Module 'Phar' already loaded in Unknown on line 0
+[17-Jul-2014 21:05:09 America/New_York] PHP Warning:  Module 'Phar' already loaded in Unknown on line 0
+[17-Jul-2014 21:05:18 America/New_York] PHP Warning:  Module 'Phar' already loaded in Unknown on line 0
+[17-Jul-2014 21:05:19 America/New_York] PHP Warning:  Module 'Phar' already loaded in Unknown on line 0
+[17-Jul-2014 21:05:50 America/New_York] PHP Warning:  Module 'Phar' already loaded in Unknown on line 0
+[17-Jul-2014 21:06:31 America/New_York] PHP Warning:  Module 'Phar' already loaded in Unknown on line 0
+[17-Jul-2014 21:08:35 America/New_York] PHP Warning:  Module 'Phar' already loaded in Unknown on line 0
+[17-Jul-2014 21:08:37 America/New_York] PHP Warning:  Module 'Phar' already loaded in Unknown on line 0
+[17-Jul-2014 21:09:35 America/New_York] PHP Warning:  Module 'Phar' already loaded in Unknown on line 0
+[17-Jul-2014 21:10:27 America/New_York] PHP Warning:  Module 'Phar' already loaded in Unknown on line 0
+[17-Jul-2014 21:10:28 America/New_York] PHP Warning:  Module 'Phar' already loaded in Unknown on line 0
+[17-Jul-2014 21:13:06 America/New_York] PHP Warning:  Module 'Phar' already loaded in Unknown on line 0
+[17-Jul-2014 21:14:50 America/New_York] PHP Warning:  Module 'Phar' already loaded in Unknown on line 0
+[17-Jul-2014 21:14:52 America/New_York] PHP Warning:  Module 'Phar' already loaded in Unknown on line 0
+[17-Jul-2014 21:16:09 America/New_York] PHP Warning:  Module 'Phar' already loaded in Unknown on line 0
+[17-Jul-2014 21:17:00 America/New_York] PHP Warning:  Module 'Phar' already loaded in Unknown on line 0
+[17-Jul-2014 21:26:46 America/New_York] PHP Warning:  Module 'Phar' already loaded in Unknown on line 0
+[17-Jul-2014 21:26:46 America/New_York] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/dotahats/public_html/Fast/DatabaseAbstractionLayer.php on line 49
+[17-Jul-2014 21:26:46 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /home/dotahats/public_html/Fast/functionTest.php on line 30
+[17-Jul-2014 21:26:46 America/New_York] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/dotahats/public_html/Fast/DatabaseAbstractionLayer.php on line 76
+[17-Jul-2014 21:26:46 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /home/dotahats/public_html/Fast/functionTest.php on line 38
+[17-Jul-2014 21:26:46 America/New_York] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/dotahats/public_html/Fast/DatabaseAbstractionLayer.php on line 63
+[17-Jul-2014 21:26:46 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /home/dotahats/public_html/Fast/functionTest.php on line 46
+[17-Jul-2014 21:28:15 America/New_York] PHP Warning:  Module 'Phar' already loaded in Unknown on line 0
+[17-Jul-2014 21:28:15 America/New_York] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/dotahats/public_html/Fast/DatabaseAbstractionLayer.php on line 49
+[17-Jul-2014 21:28:15 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /home/dotahats/public_html/Fast/functionTest.php on line 30
+[17-Jul-2014 21:28:15 America/New_York] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/dotahats/public_html/Fast/DatabaseAbstractionLayer.php on line 76
+[17-Jul-2014 21:28:15 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /home/dotahats/public_html/Fast/functionTest.php on line 38
+[17-Jul-2014 21:28:15 America/New_York] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/dotahats/public_html/Fast/DatabaseAbstractionLayer.php on line 63
+[17-Jul-2014 21:28:15 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /home/dotahats/public_html/Fast/functionTest.php on line 46
+[17-Jul-2014 21:30:50 America/New_York] PHP Warning:  Module 'Phar' already loaded in Unknown on line 0
+[17-Jul-2014 21:39:22 America/New_York] PHP Warning:  Module 'Phar' already loaded in Unknown on line 0
+[17-Jul-2014 21:40:25 America/New_York] PHP Warning:  Module 'Phar' already loaded in Unknown on line 0
+[17-Jul-2014 21:42:29 America/New_York] PHP Warning:  Module 'Phar' already loaded in Unknown on line 0
+[17-Jul-2014 21:42:58 America/New_York] PHP Warning:  Module 'Phar' already loaded in Unknown on line 0
+[17-Jul-2014 21:49:24 America/New_York] PHP Warning:  Module 'Phar' already loaded in Unknown on line 0
+[17-Jul-2014 21:49:24 America/New_York] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/dotahats/public_html/Fast/UserAccountAbstractionLayer.php on line 21
+[17-Jul-2014 21:49:24 America/New_York] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/dotahats/public_html/Fast/UserAccountAbstractionLayer.php on line 21
+[17-Jul-2014 21:50:34 America/New_York] PHP Warning:  Module 'Phar' already loaded in Unknown on line 0
+[17-Jul-2014 21:52:22 America/New_York] PHP Warning:  Module 'Phar' already loaded in Unknown on line 0
+[17-Jul-2014 21:56:40 America/New_York] PHP Warning:  Module 'Phar' already loaded in Unknown on line 0
+[17-Jul-2014 22:02:29 America/New_York] PHP Warning:  Module 'Phar' already loaded in Unknown on line 0
+[17-Jul-2014 22:02:29 America/New_York] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ',' or ';' in /home/dotahats/public_html/Fast/functionTest.php on line 90
+[17-Jul-2014 22:02:53 America/New_York] PHP Warning:  Module 'Phar' already loaded in Unknown on line 0
+[17-Jul-2014 22:03:56 America/New_York] PHP Warning:  Module 'Phar' already loaded in Unknown on line 0
+[17-Jul-2014 22:03:56 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /home/dotahats/public_html/Fast/functionTest.php on line 89
+[17-Jul-2014 22:04:44 America/New_York] PHP Warning:  Module 'Phar' already loaded in Unknown on line 0
+[17-Jul-2014 22:04:44 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /home/dotahats/public_html/Fast/functionTest.php on line 89
+[17-Jul-2014 22:05:19 America/New_York] PHP Warning:  Module 'Phar' already loaded in Unknown on line 0
+[19-Jul-2014 03:08:24 America/Chicago] PHP Parse error:  syntax error, unexpected 'Error' (T_STRING) in /home2/nws990/public_html/InventoryFast.com/Fast/DataBaseLogIn.php on line 23
+[19-Jul-2014 03:09:13 America/Chicago] PHP Warning:  mysqli_connect(): (HY000/2005): Unknown MySQL server host 'inventoryfast.ccqgekpags8x.us-west-2.rds.amazonaws.com:3306' (0) in /home2/nws990/public_html/InventoryFast.com/Fast/DataBaseLogIn.php on line 23
+[23-Jul-2014 11:40:53 America/Chicago] PHP Parse error:  syntax error, unexpected 'foreach' (T_FOREACH), expecting ',' or ';' in /home2/nws990/public_html/InventoryFast.com/Fast/functionTest.php on line 59
+[23-Jul-2014 11:41:10 America/Chicago] PHP Parse error:  syntax error, unexpected 'foreach' (T_FOREACH), expecting ',' or ';' in /home2/nws990/public_html/InventoryFast.com/Fast/functionTest.php on line 59
+[23-Jul-2014 11:41:11 America/Chicago] PHP Parse error:  syntax error, unexpected 'foreach' (T_FOREACH), expecting ',' or ';' in /home2/nws990/public_html/InventoryFast.com/Fast/functionTest.php on line 59
